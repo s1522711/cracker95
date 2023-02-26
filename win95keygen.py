@@ -34,10 +34,10 @@ if args.type.lower() == "oem":
         
         try:
             while sum(int(digit) for digit in str(box3)) % 7 != 0:
-                box3=int(str(random.randrange(1,9))+str(random.randrange(1,9))+str(random.randrange(1,9))+str(random.randrange(1,9))+str(random.randrange(1,9)))
+                box3=int(str(random.randrange(1,9))+str(random.randrange(1,9))+str(random.randrange(1,9))+str(random.randrange(1,9))+str(random.randrange(1,9))+str(random.randrange(1,9)))
         except TypeError:
             True
         
         box4 = random.randint(10000,99999)
         
-        print(str(box1)+"-OEM-00"+str(box3)+"-"+str(box4))
+        print(str(box1)+"-OEM-0"+str(box3)+"-"+str(box4))
