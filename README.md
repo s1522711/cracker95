@@ -5,6 +5,6 @@ windows 95 keygen written in python
 win95keygen.py [-h] [-t TYPE] [-a AMOUNT]
 
 ### options:
-  -h, --help            show the help message and exits \n
-  -t TYPE, --type TYPE  The type of the key, OEM or CDKey \n
+  -h, --help            show the help message and exits
+  -t TYPE, --type TYPE  The type of the key, OEM or CDKey
   -a AMOUNT, --amount AMOUNT  Amount of cd keys to generate
