@@ -7,7 +7,6 @@ args=parser.parse_args()
 
 if args.type == "none":
     print("Please provide the type of the key with this argument: --type oem/cdkey")
-    exit(1)
 
 
 if args.type.lower() == "cdkey" or args.type.lower() == "cd":
