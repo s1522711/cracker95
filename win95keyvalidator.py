@@ -20,7 +20,7 @@ for key_loop in range (len(args.key)):
 
             if 1 <= int(box1p1) <= 366:
                 validity_score += 1
-            if box1p2 in ["95","96","98","99","00","01","02"]:
+            if box1p2 in ["95","96","97","98","99","00","01","02"]:
                 validity_score += 1
             if args.key[key][5] == "-" and args.key[key][9] == "-" and args.key[key][17] == "-":
                 validity_score += 1
