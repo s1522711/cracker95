@@ -19,7 +19,7 @@ if args.type.lower() == "cdkey" or args.type.lower() == "cd":
 
         
         while sum(int(digit) for digit in str(post_dash))%7!=0:
-            post_dash=int(str(random.randrange(1,9))+str(random.randrange(1,9))+str(random.randrange(1,9))+str(random.randrange(1,9))+str(random.randrange(1,9))+str(random.randrange(1,9))+str(random.randrange(1,9)))
+            post_dash=int(str(random.randrange(1,9))+str(random.randrange(1,9))+str(random.randrange(1,9))+str(random.randrange(1,9))+str(random.randrange(1,9))+str(random.randrange(1,9))+str(random.randrange(1,7)))
 
         print(str(pre_dash)+"-"+str(post_dash))
         
