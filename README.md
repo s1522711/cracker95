@@ -14,11 +14,8 @@ win95keygen.py [-h] [-t TYPE] [-a AMOUNT]
 ## validator usage:
 win95keyvalidator.py [-h] key [key ...]
 
-### validator options:
-  positional arguments:
-  
-    key         The keys to validate, each key is seperated by a space
+### validator positional arguments:
+  key - The keys to validate, each key is seperated by a space
 
-  options:
-  
-    -h, --help  show this help message and exit
+### validator options:
+  -h, --help - show the help message and exit
