@@ -47,14 +47,14 @@ try:
 
                 if box1 not in ["333","444","555","666","777","888","999"]:
                     validity_score += 1
-                if args.key[key][3] == "-":
-                    validity_score += 1
+               # if args.key[key][3] == "-":
+              #      validity_score += 1
                 if sum(int(digit) for digit in str(box2)) % 7 == 0 and int(box2[len(box2)-1]) < 8:
                     validity_score += 1
                 if len(args.key[key]) == 11:
                     validity_score += 1
                 
-                if validity_score == 4:
+                if validity_score == 3:
                     print("PASS - "+args.key[key])
                 else:
                     print("FAIL - "+args.key[key])
