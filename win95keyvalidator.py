@@ -94,6 +94,6 @@ try:
                 else:
                     print("FAIL - "+args.key[key]+" - "+errors)
         else:
-            print("FAIL (too short) - "+args.key[key])
+            print("FAIL - "+args.key[key]+" - key too short (11 characters for a cd key and 23 for a oem key)")
 except ValueError:
     print("ALLOWED CHARACTERS: 0-9, '-' and the string  'oem' or 'OEM'")
